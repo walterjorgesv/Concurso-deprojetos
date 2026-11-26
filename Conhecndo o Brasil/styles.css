@@ -1,0 +1,68 @@
+ 
+    * {
+      margin: 0px;;
+      padding: 0;
+      box-sizing: border-box;
+      
+    } 
+
+    h1 {color:white;font-size: 30;}
+       
+      .norte{background-color: #418E6F;}
+      .sul{ background-color:#9091CA;}
+      .nordeste{background-color:#FE0000;}
+      .centroeste{background-color:#FF8C4D;}
+      .suldeste{background-color: #E6EC17;}
+    
+      button{width: 189px; height: 30px; gap: 30px;cursor:pointer; border-radius:20px;font-size:16px; margin:05}
+      button:active{ background-color: hsl(240, 27%, 92%);}
+      button:visited{border: blue;}
+    
+    h2{
+      color: white;
+    }
+  
+    ul{color: red;}
+    
+    img{
+      height: 450px;
+      margin-left: 600px;
+      
+    }
+        
+    p{
+      color:white;
+      font-size: 24;
+    }
+
+    
+    body { 
+    margin: 80px; 
+    display:contents_flex;
+    align-items:center;
+    background-image: url(./img/brasil.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    } 
+
+    
+
+  
+    #topo {
+      margin-top: 0px; 
+      margin-left: 530px; 
+      margin-bottom:0px;  
+      color: blue; 
+      font-size: 50px ;
+      font-weight: bolder; }
+
+    section{display: inline;}
+
+
+    @media screen and (max-width: 800px){
+      #topo{ margin:0}
+      img {margin:0; height: auto;}
+    }
+

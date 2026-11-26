@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    font-family:Georgia, serif;
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.8;
+}
+
+header{
+    background:red;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:3em;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.2em;
+}
+
+main{
+    max-width:1200px;
+    margin:auto;
+    background:white;
+    padding:30px;
+}
+
+.infobox{
+    background:#eef9f7;
+    border-left:6px solid red;   
+    padding:20px;
+    margin-bottom:30px;
+}
+
+h2{
+    color:red;
+    border-bottom:2px solid #ddd;
+    padding-bottom:8px;
+}
+
+figure{
+    margin:25px auto;
+    text-align:center;
+}
+
+figure img{
+    width:100%;
+    max-width:900px;
+    border-radius:8px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+figcaption{
+    font-size:0.9em;
+    color:red;
+    margin-top:8px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table, th, td{
+    border:1px solid #ccc;
+}
+
+th{
+    background:red;
+    color:white;
+}
+
+th, td{
+    padding:12px;
+}
+
+.destaque{
+    background:#f8fbfb;
+    border-radius:8px;
+    padding:15px;
+    margin-top:15px;
+}
+
+footer{
+    text-align:center;
+    background:#eaeaea;
+    padding:20px;
+    margin-top:30px;
+}
+
+    button{width: 180px; 
+        height: 30px; gap: 30px; margin: 0;
+        cursor:pointer; 
+        border-radius:20px;font-size: 16px;
+        background-color: red}
+    button:active{ background-color:#a84040}
+    button:visited{border: blue;}
+    
